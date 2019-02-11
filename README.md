@@ -1,10 +1,14 @@
 # over-test
 
-Clone repo
+Hi Stewart, the following will get you going:
+
+```
+git clone https://github.com/caweidmann/over-test.git
 
 npm i
 
 npm start
+```
 
 Open browser at: http://localhost:3000/
 
