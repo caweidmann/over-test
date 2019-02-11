@@ -24,7 +24,7 @@ class Search extends Component {
 
     axios.get(`${UNSPLASH}/${width}x${height}/?${this.searchInput.value}`).then(res => {
       const currentSearch = {
-        id: Math.random(),
+        id: new Date().getTime(),
         query: this.searchInput.value,
         url: res.request.responseURL,
         width,
