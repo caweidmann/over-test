@@ -5,6 +5,8 @@ Hi Stewart, the following will get you going:
 ```
 git clone https://github.com/caweidmann/over-test.git
 
+cd over-test
+
 npm i
 
 npm start
