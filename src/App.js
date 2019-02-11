@@ -63,7 +63,6 @@ class Search extends Component {
             alt={this.state.currentSearch.query}
             width={this.state.currentSearch.width}
             height={this.state.currentSearch.height}
-            ref="image"
           />
         </div>
       )
